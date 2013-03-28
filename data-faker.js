@@ -26,6 +26,8 @@ http.createServer(function (req, res) {
 
 }).listen(3000);
 
+console.log("Node Server Running at localhost:3000");
+
 // get users up to provided limit - if not provided 50 will be used
 var getUsers = function (res, limit) {
 	var users = [];

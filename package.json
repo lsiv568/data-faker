@@ -1,5 +1,5 @@
 {
-    "name": "stubs",
+    "name": "data-faker",
     "private": true,
     "version": "0.0.1",
     "description": "Server to which Stubs Requests",
@@ -8,10 +8,10 @@
 	"underscore": ""
     },
     "scripts": {
-        "start": "node stubs.js",
-        "debug": "node debug stubs.js"
+        "start": "node data-faker.js",
+        "debug": "node debug data-faker.js"
     },
-    "main": "stubs.js",
+    "main": "data-faker.js",
     "repository": "",
     "author": "",
     "license": "MIT"
