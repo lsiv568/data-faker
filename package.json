@@ -1,0 +1,18 @@
+{
+    "name": "stubs",
+    "private": true,
+    "version": "0.0.1",
+    "description": "Server to which Stubs Requests",
+    "dependencies": {
+        "Faker": "",
+	"underscore": ""
+    },
+    "scripts": {
+        "start": "node stubs.js",
+        "debug": "node debug stubs.js"
+    },
+    "main": "stubs.js",
+    "repository": "",
+    "author": "",
+    "license": "MIT"
+}
